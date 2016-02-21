@@ -2,8 +2,8 @@ from collections import namedtuple
 
 import numpy as np
 
-from .. import model
-from .. import utilities
+from . import model
+from . import utilities
 
 
 Region = namedtuple('Region', ['lower', 'upper'])
@@ -45,10 +45,10 @@ def Distribution(distribution_init):
             raise NotImplementedError('Numeric integrals are not yet supported')
 
         if not isinstance(variables, tuple):
-            variables = tuple(variables)
+            variables = (variables,)
 
         for variable in variables:
-            model.Model._description[variable] = model.Description(
+            model.Model.current_model._description[variable] = model.Description(
                 Distribution.logp, Distribution.integral, bounds
             )
 
