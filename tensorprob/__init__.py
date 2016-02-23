@@ -8,5 +8,6 @@ from . import distributions
 from .distribution import Distribution, DistributionError, Region
 from .model import Model, ModelError
 from .parameter import Parameter
+from .stats import fisher
 from .distributions import *
 from .optimizers import *
