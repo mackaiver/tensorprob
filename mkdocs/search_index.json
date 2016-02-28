@@ -1,0 +1,44 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "TensorProb\n\n\nYou've found the documentation for \nTensorProb\n, a probabalistic\ngraphical modeling and inference framework based on\n\nTensorFlow\n.\n\n\nTensorProb is currently in development.\nWe are working on implementing the following features:\n\n\n\n\nHigh flexibility in defining the statistical model\n\n\nModels are defined in a self-contained \nwith\n block\n\n\nSeamless switching between frequentist and bayesian paradigms\n\n\nFinding the maximum likelihood estimate or MAP estimate using a variety of optimizers\n\n\nFlexible sampling using different MCMC backends\n\n\nAn extensive library of probability distributions\n\n\nAnalytic and numeric marginalization of probability distributions\n to support missing data and physical boundaries\n\n\nConvolution of probability distributions\n\n\nFunctions for calculating confidence and credible intervals\n\n\nFunctions for hypothesis testing\n\n\n\n\nBenefits of using TensorFlow as a backend include\n\n\n\n\nFast evaluation of the model using multiple CPU threads and/or GPUs\n\n\nDefining new probability distributions using symbolic variables in\n   Python\n\n\nPossibility to write new optimized operators in C++ and load them\n   dynamically",
+            "title": "Home"
+        },
+        {
+            "location": "/#tensorprob",
+            "text": "You've found the documentation for  TensorProb , a probabalistic\ngraphical modeling and inference framework based on TensorFlow .  TensorProb is currently in development.\nWe are working on implementing the following features:   High flexibility in defining the statistical model  Models are defined in a self-contained  with  block  Seamless switching between frequentist and bayesian paradigms  Finding the maximum likelihood estimate or MAP estimate using a variety of optimizers  Flexible sampling using different MCMC backends  An extensive library of probability distributions  Analytic and numeric marginalization of probability distributions\n to support missing data and physical boundaries  Convolution of probability distributions  Functions for calculating confidence and credible intervals  Functions for hypothesis testing   Benefits of using TensorFlow as a backend include   Fast evaluation of the model using multiple CPU threads and/or GPUs  Defining new probability distributions using symbolic variables in\n   Python  Possibility to write new optimized operators in C++ and load them\n   dynamically",
+            "title": "TensorProb"
+        },
+        {
+            "location": "/model/",
+            "text": "This is the documentation for the model class\n\n\nAPI documentation\n\n\n[source]\n\n\nRegion\n\n\ntensorprob.model.Region()\n\n\n\n\nRegion(lower, upper)\n\n\n[source]\n\n\nModel\n\n\ntensorprob.model.Model()\n\n\n\n\nThe probabilistic graph.\n\n\nMethods\n\n\nassign(assign_dict)\n\n\n\n\nfit()\n\n\n\n\ninitialize(assign_dict)\n\n\n\n\nnll()\n\n\n\n\nobserved()\n\n\n\n\npdf()",
+            "title": "Model"
+        },
+        {
+            "location": "/model/#api-documentation",
+            "text": "[source]",
+            "title": "API documentation"
+        },
+        {
+            "location": "/model/#region",
+            "text": "tensorprob.model.Region()",
+            "title": "Region"
+        },
+        {
+            "location": "/model/#regionlower-upper",
+            "text": "[source]",
+            "title": "Region(lower, upper)"
+        },
+        {
+            "location": "/model/#model",
+            "text": "tensorprob.model.Model()  The probabilistic graph.",
+            "title": "Model"
+        },
+        {
+            "location": "/model/#methods",
+            "text": "assign(assign_dict)  fit()  initialize(assign_dict)  nll()  observed()  pdf()",
+            "title": "Methods"
+        }
+    ]
+}
